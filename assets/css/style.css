@@ -14,7 +14,7 @@ html {
 
 body {
   margin: 0;
-  padding: 0s;
+  padding: 0;
 }
 
 /* ----- Font Styles ----- * /
@@ -95,9 +95,11 @@ h2 {
   margin: 0 auto;
 }
 
-#section01 table {
-  margin: 0 auto;
+table {
   text-align: center;
+  margin: 0 auto;
+  width: 60%;
+  padding-bottom: 1.5%;
 }
 
 h2 {
@@ -105,15 +107,16 @@ h2 {
 }
 
 th {
-  font-size: 1.5em;
+  font-size: 1.3em;
   letter-spacing: 5px;
   text-transform: uppercase;
   padding: 2% 0 0 0;
 }
 
 td {
+  font-size: 1.15em;
   font-weight: 100;
-  padding: 0.8% 13% 0.8% 13%;
+  padding: 2% 4% 0.8% 0.4%;
 }
 
 #section01 a {
@@ -121,7 +124,7 @@ td {
   background-color: #3d4246;
   text-transform: uppercase;
   text-decoration: none;
-  width: 42%;
+  width: 35%;
   display: block;
   letter-spacing: 5px;
   margin: 0 auto;
