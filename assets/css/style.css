@@ -1,0 +1,190 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Open+Sans:wght@300;400;700&display=swap");
+
+/* 
+font-family: 'Libre Caslon Display', serif;
+font-family: 'Open Sans', sans-serif;
+Farben: #3d4246 #f5f5f5 #000 #fff
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0s;
+}
+
+/* ----- Font Styles ----- * /
+
+/* Font Style 1 */
+header,
+h1,
+h2,
+.td_options,
+th,
+#section01 a,
+footer {
+  font-family: "Libre Caslon Display", serif;
+  text-align: center;
+  color: #3d4246;
+}
+
+/* Font Style 2 */
+#section01 article,
+.topnav ul,
+td,
+footer article p {
+  font-family: "Open Sans", sans-serif;
+  color: #3d4246;
+}
+
+/* Stylinge: Header & Navbar */
+header h1 {
+  font-size: 3em;
+  margin: 1% 0 1% 0;
+}
+
+.topnav ul {
+  font-weight: 100;
+  margin: 1% 0 1% 0;
+  padding-bottom: 4%;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.topnav ul li {
+  font-size: 1.3em;
+  display: inline-block;
+  padding-left: 2%;
+}
+
+.topnav a,
+h2 {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #3d4246;
+}
+
+.topnav a.active {
+  text-decoration: underline;
+  color: #3d4246;
+}
+
+.topnav a:hover {
+  text-decoration: underline;
+  color: #3d4246;
+}
+
+/* Styling: Section 01 & Table */
+
+#section01 {
+  text-align: center;
+}
+
+#section01 h2 {
+  font-size: 2.5em;
+}
+
+#section01 article {
+  font-weight: 100;
+  text-align: center;
+  line-height: 1.7em;
+  width: 65%;
+  margin: 0 auto;
+}
+
+#section01 table {
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  letter-spacing: 5px;
+}
+
+th {
+  font-size: 1.5em;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  padding: 2% 0 0 0;
+}
+
+td {
+  font-weight: 100;
+  padding: 0.8% 13% 0.8% 13%;
+}
+
+#section01 a {
+  color: #fff;
+  background-color: #3d4246;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 42%;
+  display: block;
+  letter-spacing: 5px;
+  margin: 0 auto;
+  padding: 0.8% 0;
+  border-radius: 2px;
+}
+
+#section01 a:hover {
+  border: 1px solid #3d4246;
+  background-color: #fff;
+  color: #3d4246;
+  text-decoration: underline;
+  border-radius: 2px;
+}
+
+/* Parallax Effect: Bridge */
+
+.moreflowers {
+  width: 80%;
+  margin: 5% auto;
+}
+
+.parallax_flowers {
+  background-image: url("../img/moreflowers.png");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* Styling Footer */
+
+footer {
+  color: #3d4246;
+}
+
+footer article p {
+  font-weight: 100;
+  line-height: 1.7em;
+  width: 67%;
+  margin: 5% 0 2% 15%;
+  padding: 0;
+  text-align: left;
+}
+
+footer ul {
+  padding: 3.5%;
+  background-color: #f5f5f5;
+  text-align: left;
+}
+
+footer ul li {
+  display: inline-block;
+  padding-left: 15%;
+}
+
+footer a {
+  font-size: 1.3em;
+  text-decoration: none;
+  color: #3d4246;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
